@@ -1,0 +1,1 @@
+1. JS is standard javascript, JSX is an HTML-like syntax that you can use with React to (theoretically) make it easier and more intuitive to create React components 
