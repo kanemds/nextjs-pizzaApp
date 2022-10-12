@@ -1,3 +1,6 @@
+1. npx eslint --init
+2. copy code below to .eslintrc.json
+
 {
     "env": {
         "browser": true,
@@ -36,3 +39,19 @@
         "react/jsx-props-no-spreading": "off"
     }
 }
+
+3. change all .js to jsx
+
+4. npm add prettier eslint-config-prettier eslint-plugin-prettier --dev 
+
+5. create .prettierrc
+
+6. {
+  "singleQuote": false
+}
+
+7. go to file/preference/setting/
+
+8. select Workspace then Formatting: check mark
+
+9. will auto create folder .vscode and settings.json
