@@ -1,12 +1,13 @@
 .container {
-  height: 100px;
+  height: 150px;
   padding: 0px 50px;
   background-color: orange;
   display: flex;
   align-items: center;
   justify-content: space-around;
   position: sticky;
-  top:0
+  top:0;
+  z-index: 2;
 }
 
 .item {
