@@ -51,7 +51,7 @@
 .logo{
   font-size: 30px;
   font-weight: bold;
-  color: red;
+  color: #d1411e;
 }
 
 .list{
@@ -78,7 +78,7 @@
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: red;
+  background-color: #d1411e;
   padding: 3px;
   display: flex;
   align-items: center;

@@ -8,7 +8,7 @@ const ProductList = () => {
         Always Fresh
       </h1>
       <p className={styles.desc}>
-      Fresh ingredients with lots of varieties.
+      Fresh ing#d1411eients with lots of varieties.
       </p>
       <div className={styles.wrapper}>
         <PizzaCard />

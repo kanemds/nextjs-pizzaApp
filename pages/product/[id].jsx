@@ -43,11 +43,11 @@ const  Product = () => {
             <span className={styles.number}>Large</span>
           </div>
         </div>
-        <h3 className={styles.choose}>Choose additional ingredients</h3>
+        <h3 className={styles.choose}>Choose additional ing#d1411eients</h3>
         <div className={styles.ingredients}>
           <div className={styles.option}>
             <input type='checkbox' id='double' name='double' className={styles.checkbox} />
-            <label htmlFor="double">Double Ingredients</label>
+            <label htmlFor="double">Double Ing#d1411eients</label>
           </div>
           <div className={styles.option}>
             <input type='checkbox' id='hot' name='hot' className={styles.checkbox} />
