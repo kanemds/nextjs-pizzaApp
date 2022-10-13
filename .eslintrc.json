@@ -1,38 +1,9 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
-    },
-    "react/function-component-definition": [
-        2,
-        {
-            "namedComponents": "function-declaration"
-        }
-    ],
-    "extends": [
-        "plugin:react/recommended",
-        "standard",
-        "plugin:@next/next/recommended",
-        "prettier"
-    ],
-    "overrides": [],
-    "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
-    },
-    "plugins": [
-        "react",
-        "prettier"
-    ],
-    "rules": {
-        "prettier/prettier": [
-            "error",
-            {
-                "endOfLine": "auto"
-            }
-        ],
-        "react/react-in-jsx-scope": "off",
-        "react/prop-types": "off",
-        "react/jsx-props-no-spreading": "off"
-    }
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "semi": [
+      "error",
+      "never"
+    ]
+  }
 }
