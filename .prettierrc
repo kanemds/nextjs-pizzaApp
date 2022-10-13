@@ -1,3 +1,6 @@
 {
-  "singleQuote": false
+  "singleQuote": false,
+  "semi":false,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false
 }
