@@ -21,3 +21,22 @@
 .desc{
   text-align: center;
 }
+
+@media screen and (max-width:480px) {
+
+  .container{
+    width: 100%;
+  }
+
+  .title{
+    font-size: 2rem;
+  }
+
+  .price{
+    font-size: 1.6rem;
+  }
+
+  .desc{
+    font-size:1.3rem ;
+  }
+}

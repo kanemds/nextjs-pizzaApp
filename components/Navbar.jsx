@@ -14,10 +14,12 @@ const Navbar = () => {
         </div>
       </div>
       
-      <Image src="/images/logo.png" alt="logo" width="100px" height="70px" />
+      
       <div className={styles.item}>
-        <div className={styles.logo}> Pizza Time</div>
-        
+        <div className={styles.logo}>
+          <Image src="/images/logo.png" alt="logo" width="100px" height="70px" />
+          <h1>Pizza Time</h1>
+        </div>
         <ul className={styles.list}>
           <li className={styles.listItem}>Homepage</li>
           <li className={styles.listItem}>Products</li>

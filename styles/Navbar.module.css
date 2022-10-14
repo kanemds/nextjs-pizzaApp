@@ -1,5 +1,5 @@
 .container {
-  height: 150px;
+  height: 180px;
   padding: 0px 50px;
   background-color: orange;
   display: flex;
@@ -7,7 +7,7 @@
   justify-content: space-around;
   position: sticky;
   top:0;
-  z-index: 2;
+  z-index: 999;
 }
 
 .item {
@@ -49,8 +49,7 @@
 }
 
 .logo{
-  font-size: 30px;
-  font-weight: bold;
+  display: flex;
   color: #d1411e;
 }
 
@@ -84,4 +83,21 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
+}
+
+@media screen and (max-width:480px) {
+
+  .item:nth-child(2) {
+    display: none;
+  }
+
+  .item:nth-child(1) {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container{
+    height: 100px;
+  }
 }
