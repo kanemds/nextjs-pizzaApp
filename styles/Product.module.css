@@ -89,3 +89,39 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+@media screen and (max-width:480px) {
+
+  .container{
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px 15px;
+  }
+  
+  .imgContainer{
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .sizes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .option{
+    margin-top: 15px;
+    font-size: 1.3rem;
+  }
+
+  .add{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .button{
+    font-size: 1.3rem;
+  }
+}

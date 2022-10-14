@@ -30,7 +30,7 @@ const Cart = () => {
             </td>
             <td>
               <span className={styles.extras}>
-                Double ing#d1411eient, spicy sauce
+                Double ingredient, spicy sauce
               </span>
             </td>
             <td>
@@ -59,7 +59,7 @@ const Cart = () => {
             </td>
             <td>
               <span className={styles.extras}>
-                Double ing#d1411eient, spicy sauce
+                Double ingredient, spicy sauce
               </span>
             </td>
             <td>
