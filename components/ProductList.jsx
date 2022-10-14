@@ -1,7 +1,7 @@
 import styles from '../styles/ProductList.module.css'
 import PizzaCard from './PizzaCard'
 
-const ProductList = () => {
+const ProductList = ({productList}) => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
@@ -11,12 +11,9 @@ const ProductList = () => {
       Fresh ingredients with lots of varieties.
       </p>
       <div className={styles.wrapper}>
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
+        {productList.map(product =>
+          <PizzaCard key={product._id} product={product}/>
+        )}
       </div>
     </div>
   )
