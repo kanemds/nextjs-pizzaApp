@@ -19,7 +19,7 @@ const ProductSchema = new mongoose.Schema({
     type:[Number], // only number in array
     required: true,
   },
-  extraOptioins: {
+  extraOptions: {
     // array object [{}]
     type:[
       {
@@ -27,9 +27,9 @@ const ProductSchema = new mongoose.Schema({
         price:{type:Number, required:true}
       }
     ]
-  },
-  timestamps:true
-})
+  }},
+{ timestamps: true }
+)
 
 // check if Product model exist, else will create one
 export default mongoose.models.Product ||
