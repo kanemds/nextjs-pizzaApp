@@ -10,7 +10,6 @@ const  Product = ({pizza}) => {
   const [quantity, setQuantity] = useState(1)
   const [addOn, setAddOn] = useState([])
 
-  console.log(price)
 
   const changePrice = (number) => {
     setPrice(price + number)

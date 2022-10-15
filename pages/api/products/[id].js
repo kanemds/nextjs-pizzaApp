@@ -6,9 +6,8 @@ export default async function handler(req, res) {
   
   const { method, query:{ id } } = req
 
-  console.log(id)
-
-  dbConnect()
+  
+  await dbConnect()
 
   if (method === "GET") {
     try {
